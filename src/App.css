@@ -1,0 +1,19 @@
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background-color: hsl(228, 33%, 97%);
+}
+
+.comments-column {
+  position: relative;
+  margin: 0 auto;
+  width: 750px;
+}
+
+@media(max-width: 760px) {
+  .comments-column {
+      width: 90vw;
+  }
+}
